@@ -1,2 +1,6 @@
-
-
+# git init 初始化版本库
+# git add <file>把工作区的内容提交至暂存区
+# git commit -m<message>把暂存区的内容提交至版本库
+# git status 查看文件在工作区,暂存区的状态(change to be commited[文件提交至暂存区并没有进行修改],change not staged for commit[文件提交至暂存区后修改了],untracked files[文件没有提交至暂存区])
+# git diff <file>(不跟参数:查看工作区与暂存区的差异,--cahed:查看暂存区与版本库的差异,HEAD:查看工作区与最后一次提交后版本库的差异)
+#  
