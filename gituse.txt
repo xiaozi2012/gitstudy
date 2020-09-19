@@ -3,4 +3,5 @@
 # git commit -m<message>把暂存区的内容提交至版本库
 # git status 查看文件在工作区,暂存区的状态(change to be commited[文件提交至暂存区并没有进行修改],change not staged for commit[文件提交至暂存区后修改了],untracked files[文件没有提交至暂存区])
 # git diff <file>(不跟参数:查看工作区与暂存区的差异,--cahed:查看暂存区与版本库的差异,HEAD:查看工作区与最后一次提交后版本库的差异)
-#  
+# git remote add origin git@<server-name>:<path/repo-name>.git 本地仓库关联远程仓库
+# git push origin master 把本地仓库内容推送至远程仓库master分支(第一次添加-u参数)
